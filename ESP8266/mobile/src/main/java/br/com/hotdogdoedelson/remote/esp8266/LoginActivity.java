@@ -35,13 +35,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        ImageView  google = (ImageView) findViewById(R.id.imageView3);
-        face.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+     
 
     }
 }
